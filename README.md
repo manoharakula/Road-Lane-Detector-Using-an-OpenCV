@@ -1,6 +1,6 @@
 # LaneLines
-An OpenCV pipeline for detecting lane lines in video streams
+A pipeline based on OpenCV for recognizing lane lines in video streams.
 
-Check out the P1.ipynb file for the code.
+The code may be found in the P1.ipynb file.
 
-I start off by using the Canny edge detection algorithm to detect edges. Then I use Hough transform to represent the images in parameter space, using which I detect lines in the region of interest. This is first tested on images, and then on videos.
+To begin, I use the Canny edge detection technique to find edges. The photos are then represented in parameter space using the Hough transform, which allows me to detect lines in the region of interest. This is tried on photos first, then on videos.
